@@ -1,10 +1,10 @@
 #include <iostream>
-
 void f()
 {
 	std::cout << "hello";
 }
 
+int boo(int);
 int usage(int);
 
 void foo();
@@ -32,4 +32,8 @@ void foo()
 void print()
 {
 	std::cout << add(7, 8);
+}
+int boo(int kl)
+{
+		return kl;
 }
