@@ -1,5 +1,10 @@
 #include <iostream>
 
+void f()
+{
+	std::cout << "hello";
+}
+
 int usage(int);
 
 void foo();
