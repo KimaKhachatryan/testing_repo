@@ -1,8 +1,9 @@
 #include <iostream>
-
+void klo();
 void f()
 {
 	std::cout << "hello";
+	std::cout << "World";
 }
 
 void asd()
@@ -17,6 +18,7 @@ void foo();
 int add (int, int);
 int main()
 {
+	klo();
 	return 0;
 }
 
@@ -37,4 +39,9 @@ void foo()
 void print()
 {
 	std::cout << add(7, 8);
+}
+void klo()
+{
+	std::cout << "Cloning";
+	std::cout << "Existing repo";
 }
