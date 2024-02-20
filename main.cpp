@@ -1,5 +1,9 @@
 #include <iostream>
+
 int usage(int);
+
+void foo();
+
 int add (int, int);
 int main()
 {
@@ -15,4 +19,7 @@ int usage (int k)
 {
 		k += 15;
 		return k;
+void foo()
+{
+	std::cout << add(7, 8) << std::endl;
 }
