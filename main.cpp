@@ -5,6 +5,11 @@ void f()
 	std::cout << "hello";
 }
 
+void asd()
+{
+	std::cout << "added asd";
+}
+
 int usage(int);
 
 void foo();
