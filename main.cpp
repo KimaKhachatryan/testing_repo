@@ -3,6 +3,7 @@ void klo();
 void f()
 {
 	std::cout << "hello";
+	std::cout << "World";
 }
 
 int usage(int);
@@ -37,4 +38,5 @@ void print()
 void klo()
 {
 	std::cout << "Cloning";
+	std::cout << "Existing repo";
 }
