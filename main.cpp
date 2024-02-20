@@ -16,3 +16,8 @@ int usage (int k)
 		k += 15;
 		return k;
 }
+
+void print()
+{
+	std::cout << add(7, 8);
+}
